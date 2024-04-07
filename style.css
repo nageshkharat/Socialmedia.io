@@ -1,0 +1,234 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#section1{
+    height: 100vh;
+    background-image: url(./img/1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    padding: 25px 50px 75px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 5px;
+}
+li{
+    margin: 0px 25px;
+    color: white;
+}
+#btn{
+    color: black;
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 80%;
+    right: 48.5%;
+}
+
+.service1,
+.service2{
+    display: flex;
+
+}
+.service2{
+    flex-direction: row-reverse;
+}
+
+.content1,
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.image1,
+.image2,
+.content1,
+.content2{
+    width: 50%;
+}
+
+.content1,
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+.content1 h2,
+.content2 h2{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 900;
+    color: darkslateblue;
+    margin: 10px 0;
+}
+.content1 p,
+.content2 p{
+    font-family: fantasy;
+    color: gray;
+    line-height: 20px;
+}
+.content1 a,
+.content2 a{
+    color: darkviolet;
+    margin: 10px 0;
+    text-decoration: none;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+.section3{
+
+}
+
+.section3{
+    display: flex;
+}
+.service3{
+    background-image: url(./img/8.jpg);
+}
+.service4{
+    background-image: url(./img/9.jpg);
+}
+.service3,
+.service4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 25px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.service3 h2,
+.service4 h2{
+    font-family: cursive;
+    font-weight: 900px;
+    font-size: 50px;
+    margin: 25px;
+    color: blueviolet;
+}
+.service3 p,
+.service4 p{
+    color: brown;
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.Testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 h2{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: blueviolet;
+    margin: 25px 0;
+
+}
+.Testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+.Testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.Testimonial p{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+.Testimonial .name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: brown;
+    margin: 10px 0;
+}
+.Testimonial .position{
+    color: teal;
+    font-size: 12px;
+}
+.section5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.section5 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.section6 img{
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+}
+footer ul li a{
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .icon{
+    margin-top: 50px;
+}
